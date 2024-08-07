@@ -8,7 +8,8 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import SearchIcon from "@mui/icons-material/Search";
 import SuprSendInbox from '@suprsend/react-inbox'
-import 'react-toastify/dist/ReactToastify.css'
+import 'react-toastify/dist/ReactToastify.css' 
+
 
 const Topbar = () => {
   const theme = useTheme();
@@ -39,9 +40,9 @@ const Topbar = () => {
           )}
         </IconButton> 
         <SuprSendInbox
-            workspaceKey= "<workspace_key>"
-            subscriberId= "<subscriber_id>"
-            distinctId= "<distinct_id>"
+           workspaceKey= "<workspace_key>"
+           subscriberId= "<subscriber_id>"
+           distinctId= "<distinct_id>"
         />
         <IconButton>
           <SettingsOutlinedIcon />
